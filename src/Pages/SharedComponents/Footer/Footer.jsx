@@ -126,8 +126,8 @@ const Footer = () => {
           initial={{ y: 24, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.65, ease: 'easeOut' }}
-          className="pt-2 select-none pointer-events-none"
+          transition={{ duration: 0.65, ease: 'easeOut' }} //bg-linear-to-t from-[#070415] to-[#000000]
+          className="pt-2 select-none pointer-events-none "
         >
           <img
             src={giantWordmark}
