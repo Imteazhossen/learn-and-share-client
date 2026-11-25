@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate, useLocation } from 'react-router';
 import useAuth from '../Hooks/useAuth';
-import Loading from '../SharedComponents/Loading/Loading';
+import Loading from '../Pages/SharedComponents/Loading/Loading';
 
 const PrivateRoute = ({children}) => {
     

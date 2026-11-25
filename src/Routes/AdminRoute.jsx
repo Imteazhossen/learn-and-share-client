@@ -3,7 +3,7 @@ import React, { Children } from 'react';
 import { Navigate } from 'react-router';
 import useAuth from '../Hooks/useAuth';
 import useUserRole from '../Hooks/useUserRole';
-import Loading from '../SharedComponents/Loading/Loading';
+import Loading from '../Pages/SharedComponents/Loading/Loading';
 
 
 const AdminRoute = ({ children }) => {
